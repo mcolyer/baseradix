@@ -1,0 +1,154 @@
+<tiles filedirectory="tiles" >
+	<tileclasses >
+		<tileclass id="1" name="Land" defaultfilename="dirtmain.bmp"/>
+		<tileclass id="2" name="Water" defaultfilename="water.bmp" />
+		<tileclass id="0" name="Border" defaultfilename="black.bmp" />
+	</tileclasses >
+	<!-- sides att is list of types clockwise from the top (A for any) -->
+	<tiletype id="1" sides="AAAAAAAA" filedirectory="" >
+		<tile name="Sparse Dirt 1" filename="dirt1.bmp" weight="2" />
+		<tile name="Sparse Dirt 2" filename="dirt2.bmp" weight="2" />
+		<tile name="Sparse Dirt 3" filename="dirt3.bmp" weight="2" />
+		<tile name="Dirt 4" filename="dirt4.bmp" weight="1" />
+		<tile name="Dirt 5" filename="dirt5.bmp" weight="1" />
+		<tile name="Dirt 6" filename="dirt6.bmp" weight="1" />
+		<tile name="Dirt 7" filename="dirt7.bmp" weight="1" />
+		<tile name="Dirt 8" filename="dirt8.bmp" weight="1" />
+		<tile name="Dirt 9" filename="dirt9.bmp" weight="1" />
+		<tile name="Dirt 10" filename="dirt10.bmp" weight="1" />
+		<tile name="Dirt 11" filename="dirt11.bmp" weight="1" />
+		<tile name="Dirt 12" filename="dirt12.bmp" weight="1" />
+		<tile name="Dirt 13" filename="dirt13.bmp" weight="1" />
+		<tile name="Dirt 14" filename="dirt14.bmp" weight="1" />
+		<tile name="Sparse Dirt 15" filename="dirt15.bmp" weight="1" />
+		<tile name="Dirt 16" filename="dirt16.bmp" weight="1" />
+		<tile name="Dirt 17" filename="dirt17.bmp" weight="1" />
+		<tile name="Dirt 18" filename="dirt18.bmp" weight="1" />
+		<tile name="Dirt 19" filename="dirt19.bmp" weight="1" />
+		<tile name="Dirt 20" filename="dirt20.bmp" weight="1" />
+		<tile name="Dirt 21" filename="dirt21.bmp" weight="1" />
+		<tile name="Dirt 22" filename="dirt22.bmp" weight="1" />
+		<tile name="Dirt 23" filename="dirt23.bmp" weight="1" />
+		<tile name="Dirt 24" filename="dirt24.bmp" weight="1" />
+		<tile name="Sparse Dirt Main" filename="dirtmain.bmp" weight="30" />
+	</tiletype >
+	
+	<tiletype id="2" sides="22222222" filedirectory="" >
+		<tile name="Water 1" filename="water.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="222A1A22" filedirectory="" >
+		<tile name="Water B" filename="waterB.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="2A1A1A22" filedirectory="" >
+		<tile name="Water BR" filename="waterBR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="1A1A1A2A" filedirectory="" >
+		<tile name="Water BRT" filename="waterBRT.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="22222221" filedirectory="" >
+		<tile name="Water cTL" filename="watercTL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="22222121" filedirectory="" >
+		<tile name="Water cTLBL" filename="watercTLBL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="22212121" filedirectory="" >
+		<tile name="Water cTLBLBR" filename="watercTLBLBR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="21222221" filedirectory="" >
+		<tile name="Water cTLTR" filename="watercTLTR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="21212222" filedirectory="" >
+		<tile name="Water cTRBR" filename="watercTRBR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="21222121" filedirectory="" >
+		<tile name="Water cTLTRBL" filename="watercTLTRBL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="21212221" filedirectory="" >
+		<tile name="Water cTLTRBR" filename="watercTLTRBR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="21222222" filedirectory="" >
+		<tile name="Water cTR" filename="watercTR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="22222A1A" filedirectory="" >
+		<tile name="Water L" filename="waterL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="222A1A1A" filedirectory="" >
+		<tile name="Water LB" filename="waterLB.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="2A1A1A1A" filedirectory="" >
+		<tile name="Water LBR" filename="waterLBR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="1A1A2A1A" filedirectory="" >
+		<tile name="Water LTR" filename="waterLTR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="2A1A2222" filedirectory="" >
+		<tile name="Water R" filename="waterR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="1A22222A" filedirectory="" >
+		<tile name="Water T" filename="waterT.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="1A2A1A1A" filedirectory="" >
+		<tile name="Water TBL" filename="waterTBL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="1A222A1A" filedirectory="" >
+		<tile name="Water TL" filename="waterTL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="1A1A222A" filedirectory="" >
+		<tile name="Water TR" filename="waterTR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="22222122" filedirectory="" >
+		<tile name="Water cBL" filename="watercBL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="22212222" filedirectory="" >
+		<tile name="Water cBR" filename="watercBR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="22212122" filedirectory="" >
+		<tile name="Water cBLBR" filename="watercBLBR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="222A1A21" filedirectory="" >
+		<tile name="Water BcTL" filename="waterBcTL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="212A1A22" filedirectory="" >
+		<tile name="Water BcTR" filename="waterBcTR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="212A1A21" filedirectory="" >
+		<tile name="Water BcTRTL" filename="waterBcTRTL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="22212A1A" filedirectory="" >
+		<tile name="Water LcBR" filename="waterLcBR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="21222A1A" filedirectory="" >
+		<tile name="Water LcTR" filename="waterLcTR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="21212A1A" filedirectory="" >
+		<tile name="Water LcTRBR" filename="waterLcTRBR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="2A1A2122" filedirectory="" >
+		<tile name="Water RcBL" filename="waterRcBL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="2A1A2221" filedirectory="" >
+		<tile name="Water RcTL" filename="waterRcTL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="2A1A2121" filedirectory="" >
+		<tile name="Water RcTLBL" filename="waterRcTLBL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="1A22212A" filedirectory="" >
+		<tile name="Water TcBL" filename="waterTcBL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="1A21222A" filedirectory="" >
+		<tile name="Water TcBR" filename="waterTcBR.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="1A21212A" filedirectory="" >
+		<tile name="Water TcBRBL" filename="waterTcBRBL.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="1A2A1A2A" filedirectory="" >
+		<tile name="Water BT" filename="waterBT.bmp" weight="1" />
+	</tiletype >
+	<tiletype id="2" sides="2A1A2A1A" filedirectory="" >
+		<tile name="Water LR" filename="waterLR.bmp" weight="1" />
+	</tiletype >
+	
+	<tiletype id="0" sides="AAAAAAAA" filedirectory="" >
+		<tile name="Black" filename="black.bmp" weight="1" />
+	</tiletype >
+</tiles >

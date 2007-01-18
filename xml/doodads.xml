@@ -1,0 +1,27 @@
+<doodads filedirectory="doodads" >
+	<doodadtype name="Trees" filedirectory="trees" >
+		<doodad name="Leafy Tree 1" filename="tree.bmp" offsetx="0" offsety="0" rectwidth="66" rectheight="12" />
+		<doodad name="Pine Tree 1" filename="tree1.bmp" offsetx="0" offsety="0" rectwidth="54" rectheight="10" />
+		<doodad name="Pine Tree 2" filename="tree2.bmp" offsetx="0" offsety="0" rectwidth="50" rectheight="15" />
+		<doodad name="Leafy Tree 2" filename="tree3.bmp" offsetx="-13" offsety="0" rectwidth="60" rectheight="12" />
+		<doodad name="Leafy Tree 3" filename="tree4.bmp" offsetx="-13" offsety="0" rectwidth="60" rectheight="12" />
+		<doodad name="Leafy Tree 4" filename="tree5.bmp" offsetx="-13" offsety="0" rectwidth="60" rectheight="12" />
+		<doodad name="Leafy Tree 3" filename="tree6.bmp" offsetx="-13" offsety="0" rectwidth="60" rectheight="12" />
+	</doodadtype >
+	<doodadtype name="Buildings" filedirectory="buildings" >
+		<doodad name="Thirteen Room" filename="thirteenroom.bmp" offsetx="-2" offsety="0" rectwidth="112" rectheight="30" />
+		<doodad name="House" filename="house1.bmp" offsetx="0" offsety="0" rectwidth="160" rectheight="44" />
+		<doodad name="Radar House" filename="radarhouse.bmp" offsetx="0" offsety="0" rectwidth="138" rectheight="34" />
+		<doodad name="Tower 1" filename="tower.bmp" offsetx="-1" offsety="0" rectwidth="68" rectheight="30" />
+		<doodad name="Tower 2" filename="tower2.bmp" offsetx="-1" offsety="0" rectwidth="40" rectheight="40" />
+	</doodadtype >
+	<doodadtype name="Random" filedirectory="random">
+		<doodad name="Barrel 1" filename="barrel.bmp" offsetx="0" offsety="0" rectwidth="86" rectheight="20" />
+		<doodad name="Barrel 2" filename="barrel2.bmp" offsetx="0" offsety="0" rectwidth="38" rectheight="14" />
+		<doodad name="Bulbflower" filename="bulbflower.bmp" offsetx="-9" offsety="0" rectwidth="22" rectheight="8" />
+		<doodad name="Cattails" filename="cattails.bmp" offsetx="3" offsety="0" rectwidth="24" rectheight="12" />
+		<doodad name="Crate" filename="crate1.bmp" offsetx="0" offsety="0" rectwidth="50" rectheight="20" />
+		<doodad name="Ball Rainbow" filename="ballrainbow.bmp" offsetx="0" offsety="0" rectwidth="150" rectheight="30" />
+				
+	</doodadtype >
+</doodads >

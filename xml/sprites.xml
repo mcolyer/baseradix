@@ -1,0 +1,81 @@
+<sprites filedirectory="sprites" >
+	
+	<sprite name="brendan" filedirectory="brendan" rectwidth="40" rectheight="15">
+	
+		<state name="standing-D" default="true" >
+			<image filename="brendan-D-S.bmp" offsetx="0" offsety="0" frames="1"/>
+		</state >
+		<state name="standing-DL" >
+			<image filename="brendan-DL-S.bmp" offsetx="0" offsety="0" frames="1" />
+		</state >
+		<state name="standing-L" >
+			<image filename="brendan-L-S.bmp" offsetx="0" offsety="0" frames="1" />
+		</state >
+		<state name="standing-UL" >
+			<image filename="brendan-UL-S.bmp" offsetx="0" offsety="0" frames="1" />
+		</state >
+		<state name="standing-U" >
+			<image filename="brendan-U-S.bmp" offsetx="0" offsety="0" frames="1" />
+		</state >
+		<state name="standing-UR" >
+			<image filename="brendan-UR-S.bmp" offsetx="0" offsety="0" frames="1" />
+		</state >
+		<state name="standing-R" >
+			<image filename="brendan-R-S.bmp" offsetx="0" offsety="0" frames="1" />
+		</state >
+		<state name="standing-DR" >
+			<image filename="brendan-DR-S.bmp" offsetx="0" offsety="0" frames="1" />
+		</state >
+		
+		<state name="walking-D" >
+			<image filename="brendan-D-W1.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-D-W2.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-D-W3.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-D-W4.bmp" offsetx="0" offsety="0" frames="5" />
+		</state >
+		<state name="walking-DL" >
+			<image filename="brendan-DL-W1.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-DL-W2.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-DL-W3.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-DL-W4.bmp" offsetx="0" offsety="0" frames="5" />
+		</state >
+		<state name="walking-L" >
+			<image filename="brendan-L-W1.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-L-W2.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-L-W3.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-L-W4.bmp" offsetx="0" offsety="0" frames="5" />
+		</state >
+		<state name="walking-UL" >
+			<image filename="brendan-UL-W1.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-UL-W2.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-UL-W3.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-UL-W4.bmp" offsetx="0" offsety="0" frames="5" />
+		</state >
+		<state name="walking-U" >
+			<image filename="brendan-U-W1.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-U-W2.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-U-W3.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-U-W4.bmp" offsetx="0" offsety="0" frames="5" />
+		</state >
+		<state name="walking-UR" >
+			<image filename="brendan-UR-W1.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-UR-W2.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-UR-W3.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-UR-W4.bmp" offsetx="0" offsety="0" frames="5" />
+		</state >
+		<state name="walking-R" >
+			<image filename="brendan-R-W1.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-R-W2.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-R-W3.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-R-W4.bmp" offsetx="0" offsety="0" frames="5" />
+		</state >
+		<state name="walking-DR" >
+			<image filename="brendan-DR-W1.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-DR-W2.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-DR-W3.bmp" offsetx="0" offsety="0" frames="5" />
+			<image filename="brendan-DR-W4.bmp" offsetx="0" offsety="0" frames="5" />
+		</state >
+		
+	</sprite >
+	
+</sprites >

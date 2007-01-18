@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<cfgdef cfgname="NPC Banter" >
+
+	<ntlist >
+		<nt name="banter" base="true" />
+		<nt name="question" />
+		<nt name="exclamation" />
+		<nt name="condition" />
+		<nt name="positiveadjective" />
+		<nt name="food" />
+		<nt name="object" />
+		<nt name="superlative" />
+	</ntlist >
+	
+	<ntdef name="banter" ><nt name="question" /></ntdef >
+	<ntdef name="banter" ><nt name="exclamation" /></ntdef >
+	
+	<ntdef name="question" >Don't you love the <nt name="condition" /> this time of year?</ntdef>
+	<ntdef name="question" >Isn't it so <nt name="positiveadjective" /> out today?</ntdef>
+	<ntdef name="question" >How are you today?</ntdef>
+	<ntdef name="question" >I just hate <nt name="food" />, don't you?</ntdef>
+	
+	<ntdef name="condition" >weather</ntdef>
+	<ntdef name="condition" ><nt name="positiveadjective" /> foliage</ntdef>
+	<ntdef name="condition" >skies</ntdef>
+	
+	<ntdef name="positiveadjective" >nice</ntdef>
+	<ntdef name="positiveadjective" >beautiful</ntdef>
+	<ntdef name="positiveadjective" >great</ntdef>
+	<ntdef name="positiveadjective" >excellent</ntdef>
+	<ntdef name="positiveadjective" >rockin'</ntdef>
+	
+	<ntdef name="superlative" >nicest</ntdef>
+	<ntdef name="superlative" >best</ntdef>
+	<ntdef name="superlative" >greatest</ntdef>
+	<ntdef name="superlative" >most interesting</ntdef>
+	<ntdef name="superlative" >strangest</ntdef>
+	<ntdef name="superlative" >coolest</ntdef>
+	
+	<ntdef name="exclamation" >I need to get home! We're having <nt name="food" /> tonight!</ntdef>
+	<ntdef name="exclamation" >I found the <nt name="superlative" /> <nt name="object" /> over there!</ntdef>
+	<ntdef name="exclamation" >I discovered the <nt name="superlative" /> <nt name="object" /> o'er yonder!</ntdef>
+	<ntdef name="exclamation" >I think <nt name="food" /> is the <nt name="superlative" /> ever!</ntdef>
+	
+	<ntdef name="food" >pot roast</ntdef>
+	<ntdef name="food" >watermelon</ntdef>
+	<ntdef name="food" >pizza</ntdef>
+	<ntdef name="food" >sow chow mien</ntdef>
+	<ntdef name="food" >fried scrod</ntdef>
+	<ntdef name="food" >sauteed bulbflowers</ntdef>
+	
+	<ntdef name="object" >tree</ntdef>
+	<ntdef name="object" >building</ntdef>
+	<ntdef name="object" >pond</ntdef>
+	<ntdef name="object" >cloud</ntdef>
+	<ntdef name="object" >rock</ntdef>
+	
+</cfgdef >
